@@ -16,7 +16,7 @@ def line(line_array)
 end
 
 def take_a_number(array, person)
-  puts "Welcome, #{person}. You are number #{array.size} in line."
+  puts "Welcome, #{person}. You are number #{array.size+1} in line."
 end
 
 def now_serving(array, person)
