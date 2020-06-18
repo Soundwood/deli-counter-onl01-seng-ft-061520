@@ -21,4 +21,6 @@ def take_a_number(array, person)
 end
 
 def now_serving(array, person)
+  puts "Currently serving #{array[0]}"
+  array.shift
 end
