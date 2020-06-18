@@ -20,7 +20,7 @@ def take_a_number(array, person)
   puts "Welcome, #{person}. You are number #{array.size} in line."
 end
 
-def now_serving(array, person)
+def now_serving(array)
   puts "Currently serving #{array[0]}"
   array.shift
 end
