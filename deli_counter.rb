@@ -7,7 +7,7 @@ def line(line_array)
   if line_length == 0
     puts "The line is currently empty."
   else
-    line_array.each_with_index do |person, index|
+    line_array.each.with_index do |person, index|
       line_list = line_array.join("#{index+1}. #{person} ")
     end
     puts line_list
